@@ -39,7 +39,7 @@ body {
 .services-icons {
     display: flex;
     justify-content: center;
-    gap: 25px;
+    gap: 100px;
     margin-bottom: 30px;
     flex-wrap: wrap;
 }
@@ -150,7 +150,7 @@ body {
     }
     
     .services-icons {
-        gap: 15px;
+        gap: 60px;
     }
     
     .info-section {
