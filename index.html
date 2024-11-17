@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academia Pacheco</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="logo">
+            <div class="menu-icon-container" onclick="toggleMenu()">
+                <div class="menu-icon"></div>
+                <div class="menu-icon"></div>
+                <div class="menu-icon"></div>
+            </div>
+            <img src="./img/logo site.jpg" alt="Pacheco Fit">
+            <!-- Links do Menu -->
+            <div class="dropdown-menu" id="dropdownMenu">
+                <a href="#unidades">Nossas Unidades</a>
+                <a href="#divirta-se">Conheça nossa Academia</a><br>
+                <a href="#faq">Perguntas frequentes</a>
+            </div>
+        </nav>
+
+        <nav class="actions">
+            <button class="btn-franchise"><a href="./matricula.html">Matricula</a></button>
+
+        </nav>
+    </header>
+
+    <section id="banner1">
+        <article class="texto-principal">
+            <h1>Por que se <span class="destaque">matricular?</span></h1>
+            <p>Só a Pacheco Fit reúne tudo que você precisa para não ter mais desculpas para não ir treinar: temos duas
+                academias pelo Valparaíso e em breve teremos mais duas unidades, abertas de domingo a domingo, por um
+                preço acessível.</p>
+        </article>
+        <article id="banner"></article>
+    </section>
+
+    <section id="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="./img/primeirocarroel1.1.png" alt="Primeiro Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./img/primeirocarroel1.2.png" alt="Segundo Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./img/primeirocarroel1.3.png" alt="Terceiro Slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+    </section>
+
+    <section id="unidades" class="locais">
+        <h2>Nossas Unidades</h2>
+        <article class="botao">
+            <button class="botao1"><a href="./JardimOriente.html">Jardim Oriente</a></button>
+            <button class="botao2"><a href="./Esplanada1.html">Esplanada 1</a></button>
+        </article>
+    </section>
+
+
+
+
+
+
+    <section id="divirta-se">
+        <div>
+            <h2 class="texto-video">Conheça mais sobre nossa academia</h2>
+
+            <video width="640" height="360" controls src="./img/ACADEMIA PACHECO FIT CROSS FITNSS.mp4"></video>
+        </div>
+    </section>
+
+
+    <section id="faq">
+        <div class="perguntas">
+            <h1>Perguntas Frequentes (FAQ)</h1>
+
+            <div class="faq-item">
+                <input type="checkbox" id="faq1">
+                <label for="faq1">Quais são os horários de funcionamento da academia?</label>
+                <p>A academia funciona de segunda a sexta das 5h às 23h, e nos sábados, domingos e feriados das 8h às
+                    14h.</p>
+            </div>
+
+            <div class="faq-item">
+                <input type="checkbox" id="faq2">
+                <label for="faq2">Preciso marcar horário para treinar?</label>
+                <p> Em horários normais, não é necessário agendar horário. Porém, em aulas especiais como pilates e
+                    spinning, recomenda-se fazer a reserva para garantir sua vaga.</p>
+            </div>
+
+            <div class="faq-item">
+                <input type="checkbox" id="faq3">
+                <label for="faq3">Quais modalidades estão inclusas na matrícula?</label>
+                <p>Nossa matrícula inclui acesso às áreas de musculação, cardio, e aulas coletivas como zumba, yoga e
+                    funcional. Para modalidades específicas, consulte os pacotes disponíveis.</p>
+            </div>
+
+            <div class="faq-item">
+                <input type="checkbox" id="faq4">
+                <label for="faq4">A academia oferece planos para diferentes horários?</label>
+                <p>Sim, temos planos para horários específicos, como o plano diurno, e também planos flexíveis, que
+                    permitem o acesso em qualquer horário de funcionamento da academia.</p>
+            </div>
+
+            <div class="faq-item">
+                <input type="checkbox" id="faq5">
+                <label for="faq5"> Existe uma taxa de matrícula?</label>
+                <p>Sim, cobramos uma taxa de matrícula no valor de R$ 50, que inclui a avaliação física inicial e a
+                    criação de um plano de treinos personalizado.</p>
+            </div>
+
+            <div class="faq-item">
+                <input type="checkbox" id="faq6">
+                <label for="faq6">Quais métodos de pagamento são aceitos?</label>
+                <p>Aceitamos pagamentos em cartão de crédito, débito, PIX, e boleto bancário. Também oferecemos a opção
+                    de parcelamento dependendo do plano escolhido.</p>
+            </div>
+
+            <div class="faq-item">
+                <input type="checkbox" id="faq7">
+                <label for="faq7">Posso fazer uma aula experimental antes de me matricular?</label>
+                <p>Claro! Você pode agendar uma aula experimental gratuita para conhecer nossa estrutura e experimentar
+                    nossas atividades.</p>
+            </div>
+
+            <div class="faq-item">
+                <input type="checkbox" id="faq8">
+                <label for="faq8">Há profissionais para orientar durante o treino?</label>
+                <p>Sim, contamos com uma equipe de personal trainers sempre disponível para orientações e ajudar a
+                    montar o plano de treino ideal para seu objetivo.</p>
+            </div>
+
+            <div class="faq-item">
+                <input type="checkbox" id="faq9">
+                <label for="faq9"> Quais são as opções de armários na academia?</label>
+                <p>Temos armários diários, que podem ser utilizados durante o treino, e também locações mensais para
+                    quem prefere um armário exclusivo.</p>
+            </div>
+
+            <div class="faq-item">
+                <input type="checkbox" id="faq10">
+                <label for="faq10"> A academia possui estacionamento?</label>
+                <p>Sim, oferecemos estacionamento gratuito para os alunos durante o período do treino, com vagas
+                    limitadas.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <footer>
+        <section class="footer">
+            <article>
+                <img src="./img/logo site.jpg" alt="Pacheco Fit">
+            </article>
+
+            <article class="icones">
+                <a href="https://instagram.com/academiapachecofit" target="_blank">
+                    <img src="./img/icons8-instagram-48.png" alt="Instagram">
+                </a>
+                <a href="https://www.whatsapp.com" target="_blank">
+                    <img src="./img/icons8-whatsapp-48.png" alt="WhatsApp">
+                </a>
+            </article>
+
+
+            <article class="texto-footer">
+
+                <p>feito por david Lucas </p>
+                <p><a href="https://github.com/DavidSiilva">https://github.com/DavidSiilva</a></p>
+            </article>
+        </section>
+
+        
+
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
